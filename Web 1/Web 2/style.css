@@ -1,0 +1,423 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.navbar li a:hover{
+    border-bottom:2px solid  #5454D4; 
+}
+
+.contianer{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 30px 260px;
+}
+
+
+.nav{
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 26px;
+}
+
+.navbar{
+    display: flex;
+}
+
+
+ul {
+    display: flex;
+
+}
+li  {
+    display: flex;
+}
+
+.navbar li a{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 42px 20px;
+    color: #19191B;
+}
+
+
+.btn{
+    background: #FF7143;
+    border-radius: 10px;
+    padding: 19px 59px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.5314737558364868px;
+    text-align: center;
+
+}
+.btn a{
+    color: #fff;
+}
+
+/*  main section   */
+
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding-top: 30px;
+}
+
+.main_left{
+    height: 231px;
+    width: 462px;
+    left: 0px;
+    top: 0px;
+    border-radius: nullpx;
+}
+
+.main_text{
+    font-family: DM Sans;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: -2px;
+}
+
+.main_p{
+    height: 90px;
+    width: 459px;
+    top: 261px;
+    border-radius: nullpx;
+}
+
+.main_p2{
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.6px;
+    margin-bottom: 50px;
+}
+
+
+.main_btn{
+    background: #5454D4;
+    border-radius: 10px;
+    padding: 19px 59px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.5314737558364868px;
+    text-align: center;
+    margin-top: 20px; 
+    transition: 0.5s;
+    color: #fff;
+}
+
+.main_btn:hover {
+    box-shadow: 0px 0px 40px #043664;
+}
+
+
+.main_p2{
+    height: 90px;
+    top: calc(50% - 90px/2 + 75.5px);
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #696871;
+    padding: 15px;
+}
+
+
+.down{
+    margin: 0px 25px;
+    padding: 10px 15px;
+}
+
+.comp{
+    margin: 123px 27px;
+   
+}
+
+.comp_img{
+    padding: 30px 40px;
+}
+
+
+.index{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.index_right{
+    font-family: DM Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 202px;
+}
+
+
+
+
+.index_p{
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    padding: 30px;
+    color:  #696871;
+
+}
+
+.index_btn {
+    color:  #5454D4;
+    font-size: 21px;
+    font-weight: 700;
+    padding: 30px;
+
+}
+
+
+.metrics{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 30px;
+}
+
+.metrics_text{
+    font-family: DM Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px; 
+}
+
+.met_text{
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.6252632141113281px;
+    text-align: left;
+    color: #696871;
+    padding: 15px;
+}
+
+
+.metrics_btn{
+    color:  #5454D4;
+    font-size: 21px;
+    font-weight: 700;
+    padding: 10px;
+    margin-bottom: 29px;
+}
+
+
+.Pricing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.card_txt{
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    color:  #19191B;
+    padding: 7px;
+}
+
+.card_txt1{
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.5002105832099915px;
+    text-align: center;
+    color: #696871;
+}
+
+.calc{
+    margin: 0 50px;
+}
+
+
+.content{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.content_p{
+    font-family: DM Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: -1.875789999961853px;
+    text-align: left;
+}
+
+
+.content_btn{
+    background: #5454D4;
+     border-radius: 10px 0px 0px 10px;
+    color: #fff;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    padding:18px  40px;
+  
+}
+
+
+.content_btn2{
+    font-size: 19px;
+    padding:118px  10px;
+    color: #5454D4;
+    background: #fff;
+    border-radius: 10px 0px 0px 10px;
+   
+}
+
+.content a{
+justify-content:space-between;
+display: flex;
+align-items: center;
+}
+
+
+.fre1{
+    height: 441px;
+    width: 330px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    background: #F8F8F8;
+}
+
+.fre1 p{
+    font-family: Mulish;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -0.5314737558364868px;
+    text-align: center;
+    color:  #696871;
+}
+
+.fre1 h3{
+    font-family: DM Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+
+.fre_btn{
+    height: 60px;
+    width: 285px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    border: 1px solid #EAE9F2
+}
+.fre_btn a{
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0px;
+    text-align: center;
+
+}
+
+
+
+.fre2{
+    height: 473px;
+    width: 376px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    background: #FF7143;
+}
+
+
+.fre2 p{
+    font-family: Mulish;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -0.5314737558364868px;
+    text-align: center;
+    color:  #696871;
+}
+
+.fre2 h3{
+    font-family: DM Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+.fre2 a{
+    font-family: DM Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.5314737558364868px;
+    text-align: center;
+    margin: 140px;
+}
+
+    
+@media only screen and (min-width: 700px) {
+  
+    .main_left{
+        width: 400px;
+    }
+  }

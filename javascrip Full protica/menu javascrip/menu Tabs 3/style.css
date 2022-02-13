@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.tab{
+    overflow: hidden;
+    border: 1px solid red;
+    background: #6666;
+}
+
+
+.tab button{
+    background: #fff;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tab button:hover{
+    background: #333;
+}
+
+.tab button.active{
+    background-color: #666;
+}
+
+.muCiyts{
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+
+.topright{
+    float: right;
+    cursor: pointer;
+    font-size: 30px;
+}

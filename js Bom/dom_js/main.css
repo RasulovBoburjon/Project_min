@@ -1,0 +1,24 @@
+
+*{
+    list-style: none;
+}
+
+nav{
+    background: #333;
+    width: 100%;
+    height: 130px;
+}
+
+.login-sigin li a{
+    color: #fff;
+}
+
+#link{
+    display: none;
+    transition: 100s ease;
+}
+
+nav:hover #link{
+    display: flex;
+    background: red;
+}

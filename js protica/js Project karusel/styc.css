@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: #333;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.container{
+    height: 100vh;
+}
+
+#next{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.carusles{
+    position: relative;
+    display: flex;
+    top: 200px;
+}
+
+.cors{
+    margin: 40px;
+    position: relative;
+  
+}
+
+
+
+.clas{
+    position: relative;
+    top: 200px;
+    display: flex;
+}
+
+.active{
+    position: relative;
+    left:0;
+}

@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500;1,700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.continer{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.nav{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin: 15px;
+}
+
+.nav ul{
+    display: flex;
+}
+.nav ul li a{
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 1.399999976158142px;
+    text-align: left;
+    color:  #000000;
+    padding: 10px;
+}
+
+.img_sect{
+    height: 504px;
+    width: 1400px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background: url(/imgs/Rectangle\ \(2\).png);
+
+}
+
+.img_txt{
+    height: 118px;
+    width: 1382.390625px;
+    padding-bottom: 200px;
+}
+
+.img_txt .img_p {
+    font-family: Roboto;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    padding-top: 200px;
+}
+
+.img_txt p{
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.800000011920929px;
+    text-align: center;
+    color:  #FFFFFF;
+    padding-top:10px;
+}
+
+.img_txt  a {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 1.399999976158142px;
+    text-align: center;
+    
+}
+
+.design{
+    text-align: center;
+}
+
+.design h2{
+    font-family: Roboto;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58px;
+    text-align: center;
+}
+.design p{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.800000011920929px;
+    text-align: center;
+    color:  #A0A0A0;
+}
+
+.design a{
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 1.399999976158142px;
+    text-align: center;
+    color:  #000000;
+}
+
+.img_title{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+    
+}
+
+
+.img1  img{
+    height: 441px;
+    width: 658px;
+    margin: 25px;
+}
+
+.img1 p{
+    font-family: Roboto;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color:  #000000;
+
+}
+.img1 a{
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 1.399999976158142px;
+    text-align: center;
+    color:  #000000;
+   
+}
+
+.img2 img{
+    height: 441px;
+    width: 658px;
+    margin: 25px;   
+}
+.img2 p{
+    font-family: Roboto;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
+.img_bt{
+    text-align: center;
+    padding: 10px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 1.399999976158142px;
+    text-align: center;
+}
+
+.img_bt a{
+    color: #000;
+}
+
+.firma_p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firma_txt h1{
+    font-family: Roboto;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:  #000000;
+}
+
+
+.firma_txt p{
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.800000011920929px;
+    text-align: center;
+    color:  #A0A0A0;
+}
+
+
+.rektangle{
+  text-align: center;
+  padding: 52px;
+}
+.rektangle img{
+    margin: 2px;
+}
+
+
+.phone{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.phone1{
+    height: 434px;
+    width: 310px;
+    padding: 25px;
+}
+
+.phone1 p{
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.699999988079071px;
+    text-align: left;
+    color:  #A0A0A0;
+}
+
+.ofice{
+    height: 504px;
+    width: 1400px;
+}
+
+.ofice{
+padding: 160px;
+background: url(/imgs/Rectangle.png);
+}
+
+.ofice h4{
+    font-family: Roboto;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.ofic{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.800000011920929px;
+    text-align: center;
+    color:#A0A0A0;
+    padding: 18px;
+}
+
+.ofice_btn {
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 1.399999976158142px;
+    text-align: center;
+    padding: 15px;
+  
+}
+
+.ofice_btn a{
+    color: #A0A0A0;
+}
+
+
+.mode{
+    width: 1400px;
+    left: 0px;
+    top: 76px;
+    border-radius: 0px;    
+    text-align: center; 
+}
+
+.mode h3{
+    font-family: Roboto;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    padding: 50px;
+}
+
+.mode p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.800000011920929px;
+    text-align: center;
+    color:  #A0A0A0;
+    padding-bottom: 30px;
+}
+
+.mode img{
+    height: 592px;
+    width: 1052px;
+    left: 32.328125px;
+    top: 150.140625px;
+    border-radius: 0px;
+}
+
+/* .grid_img{
+    height: 52px;
+    width: 1440px;
+    border-radius: 0px;
+} */
+
+
+.grid_img h6{
+    color: #000000;
+    font-family: Roboto;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 38px;
+}
+
+.grid_img p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.800000011920929px;
+    text-align: center;
+    color:  #A0A0A0;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(6 ,auto);
+    background: #fff;
+    /* gap: 5px; */
+}
+
+.grid-item{
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.de{
+    height: 404px;
+    width: 1340px;
+    background: url(./imgs/Rectangle_foo.png) no-repeat;
+    background-size: cover;
+    padding: 178px;
+ 
+}
+
+.de h6{
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.de p{
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;    
+}
+
+
+.footer{
+    height: 468px;
+    width: 1400px;
+    background: #F9F9F9;
+    display: flex;
+    padding: 70px;
+}
+  
+.footer_p{
+    padding: 16px;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 16px;
+} 
+
+.signus{
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+
+    .sig{
+        height: 64px;
+        width: 348px;
+        border-radius: nullpx;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0.800000011920929px;
+        text-align: left;
+        color: #A0A0A0;
+        padding-left: 0px;
+        margin-top: 23px;
+    }
+
+.line {
+    height: 5px;
+    width: 320px;
+    color: #000;
+    padding-bottom: 91px;
+}
+
+
+.ff{
+    text-align: right;
+}
+
+.ff a{
+    padding: 30px; 
+}
+
+
